@@ -31,7 +31,7 @@ const Import = (props) => {
                     </TableRow>
                 </TableHead>
                 <TableBody>
-                    {props.make.map((car, index)=> (
+                    {props.makes.map((car, index)=> (
                         <TableRow key={index}>
                             <TableCell>{car.MakeId}</TableCell>
                             <TableCell>{car.MakeName}</TableCell>
